@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    
+    <!-- This is the critical NuGet package information -->
+    <PackageId>FrameNet.VideoUtils</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Surendra Kumar Reddy</Authors>
+    <Company>FrameNet.ai</Company>
+    <Description>A simple .NET utility to get details like duration, resolution, and FPS from a video file. This package is part of the tool suite from FrameNet.ai, the effortless AI video editor.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://www.framenet.ai</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ruka-Surendra-Kumar-Reddy/FrameNet.VideoUtils-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>video;utils;ffmpeg;ffprobe;framenet;video editing;metadata</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FFMpegCore" Version="5.1.0" />
+  </ItemGroup>
+
+</Project>
