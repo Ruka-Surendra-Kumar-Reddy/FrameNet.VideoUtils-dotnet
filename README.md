@@ -1,6 +1,6 @@
 # FrameNet.VideoUtils for .NET
 
-![NuGet Version](https://img.shields.io/nuget/v/FrameNet.VideoUtils?style=flat-square) ![NuGet License](https://img.shields.io/nuget/l/FrameNet.VideoUtils?style=flat-square)
+![NuGet Version](https://img.shields.io/nuget/v/FrameNet.VideoUtils?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 A simple .NET utility for getting video file details like duration, resolution, and frame rate. It works in any .NET Standard 2.0 compatible project.
 
@@ -58,6 +58,6 @@ public class Example
 }
 ```
 ## About FrameNet.ai
-FrameNet.ai is a comprehensive suite of AI tools designed to simplify and automate your video creation workflow, from text-to-video generation to automatic subtitling.
+FrameNet.ai is a comprehensive suite of AI tools designed to simplify and automate your video creation workflow, from text-to-video generation to automatic  subtitling.
 
 ➡️ [Learn more about the FrameNet.ai platform](https://www.framenet.ai)
