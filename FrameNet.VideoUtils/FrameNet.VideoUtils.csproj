@@ -7,7 +7,7 @@
     
     <!-- This is the critical NuGet package information -->
     <PackageId>FrameNet.VideoUtils</PackageId>
-    <Version>1.0.2</Version> <!-- <-- VERSION BUMPED TO 1.0.2 -->
+    <Version>1.0.2</Version>
     <Authors>Surendra Kumar Reddy</Authors>
     <Company>FrameNet.ai</Company>
     <Description>A simple .NET utility to get details like duration, resolution, and FPS from a video file. This package is part of the tool suite from FrameNet.ai, the effortless AI video editor.</Description>
@@ -17,13 +17,10 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>video;utils;ffmpeg;ffprobe;framenet;video editing;metadata</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
-    <!-- THIS IS THE NEW SECTION TO INCLUDE THE README -->
     <PackageReadmeFile>README.md</PackageReadmeFile> 
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- THIS SECTION TELLS THE PACKER WHERE TO FIND THE README -->
     <None Include="..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
