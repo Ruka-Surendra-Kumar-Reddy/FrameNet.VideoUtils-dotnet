@@ -1,6 +1,6 @@
 # FrameNet.VideoUtils for .NET
 
-![NuGet Version](https://img.shields.io/nuget/v/FrameNet.VideoUtils?style=flat-square) ![NuGet License](https://img.shields.io/nuget/l/FrameNet.VideoUtils?style=flat-square)
+![NuGet Version](https://img.shields.io/nuget/v/FrameNet.VideoUtils?style=flat-square) ![NuGet License](https://img.shields.io/nuget/l/FrameNet.VideoUtils?style=flat-square&cacheBuster=2)
 
 A simple .NET utility for getting video file details like duration, resolution, and frame rate. It works in any .NET Standard 2.0 compatible project.
 
